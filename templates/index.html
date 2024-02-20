@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memes Mama</title>
+    <style>
+        body{
+            text-align: center;
+            align-items: center;
+            background-color: #121212;
+        }
+        h1{
+            padding-top: 3%;
+            font-size: 30px;
+            font-variant: small-caps;
+            color: aliceblue;
+        }
+        img{
+           max-height: 400px;
+           padding-top: 5%;
+           padding-bottom: 0%;
+        }
+        input[type="submit"]{
+            background-color: #4CAF50;
+            border-radius: 10%;
+            width: 80px;
+            height: 30px;
+            font-weight: bolder;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>memes maamey pathu enjoy panu !!</h1>
+    <p id="meme"><img src="{{ meme_url }}" alt="Meme"></p>
+    <form onsubmit="refreshPage()">
+        <input type="submit" value="Next">
+    </form>
+</div>
+
+<script>
+    function refreshPage() {
+        location.reload();
+    }
+</script>
+</body>
+</html>
